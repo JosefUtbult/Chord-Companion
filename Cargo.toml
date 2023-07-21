@@ -8,3 +8,6 @@ edition = "2021"
 [dependencies]
 
 derive_builder = "0.12.0"
+serde = { version = "1.0", features = ["derive"] }
+postcard = "1.0.6"
+heapless = "0.7.16"
